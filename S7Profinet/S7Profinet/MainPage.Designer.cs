@@ -81,9 +81,26 @@
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.btnInputTrue = new System.Windows.Forms.Button();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.btnStruct = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -595,11 +612,158 @@
             this.btnInputTrue.UseVisualStyleBackColor = true;
             this.btnInputTrue.Click += new System.EventHandler(this.btnInput_Click);
             // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.textBox1);
+            this.groupBox2.Controls.Add(this.textBox2);
+            this.groupBox2.Controls.Add(this.textBox3);
+            this.groupBox2.Controls.Add(this.textBox4);
+            this.groupBox2.Controls.Add(this.textBox5);
+            this.groupBox2.Controls.Add(this.textBox6);
+            this.groupBox2.Controls.Add(this.textBox7);
+            this.groupBox2.Controls.Add(this.label5);
+            this.groupBox2.Controls.Add(this.label6);
+            this.groupBox2.Controls.Add(this.label7);
+            this.groupBox2.Controls.Add(this.label22);
+            this.groupBox2.Controls.Add(this.label23);
+            this.groupBox2.Controls.Add(this.label24);
+            this.groupBox2.Controls.Add(this.label25);
+            this.groupBox2.Controls.Add(this.btnStruct);
+            this.groupBox2.Location = new System.Drawing.Point(363, 369);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(298, 326);
+            this.groupBox2.TabIndex = 17;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "DB1 Struct Auslesen";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(113, 192);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(159, 20);
+            this.textBox1.TabIndex = 18;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(113, 166);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(159, 20);
+            this.textBox2.TabIndex = 17;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(113, 140);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(159, 20);
+            this.textBox3.TabIndex = 16;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(113, 109);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(159, 20);
+            this.textBox4.TabIndex = 15;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(113, 82);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(159, 20);
+            this.textBox5.TabIndex = 14;
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(113, 55);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(159, 20);
+            this.textBox6.TabIndex = 13;
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(113, 25);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(159, 20);
+            this.textBox7.TabIndex = 12;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(21, 190);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(71, 13);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "wordVariable:";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(21, 163);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(77, 13);
+            this.label6.TabIndex = 8;
+            this.label6.Text = "dwordVariable:";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(21, 136);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(65, 13);
+            this.label7.TabIndex = 7;
+            this.label7.Text = "dintVariable:";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(21, 109);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(68, 13);
+            this.label22.TabIndex = 6;
+            this.label22.Text = "real Variable:";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(21, 82);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(62, 13);
+            this.label23.TabIndex = 5;
+            this.label23.Text = "int Variable:";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(21, 55);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(75, 13);
+            this.label24.TabIndex = 4;
+            this.label24.Text = "bool Ausgang:";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(21, 28);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(72, 13);
+            this.label25.TabIndex = 3;
+            this.label25.Text = "bool Eingang:";
+            // 
+            // btnStruct
+            // 
+            this.btnStruct.Location = new System.Drawing.Point(197, 218);
+            this.btnStruct.Name = "btnStruct";
+            this.btnStruct.Size = new System.Drawing.Size(75, 23);
+            this.btnStruct.TabIndex = 19;
+            this.btnStruct.Text = "Timer";
+            this.btnStruct.UseVisualStyleBackColor = true;
+            this.btnStruct.Click += new System.EventHandler(this.btnStruct_Click);
+            // 
             // MainPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1248, 830);
+            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox1);
@@ -614,6 +778,8 @@
             this.groupBox3.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -672,6 +838,22 @@
         private System.Windows.Forms.Button btnOutputTrue;
         private System.Windows.Forms.Button btnReset;
         private System.Windows.Forms.Label lblVerbindung;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Button btnStruct;
     }
 }
 

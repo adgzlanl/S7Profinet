@@ -17,6 +17,17 @@ namespace S7Profinet
     {
 
         public Plc plc = null;
+
+        public struct S7Struct
+        {
+            public bool StrInput;
+            public bool StrOutput;
+            public short StrInt;
+            public double StrReal;
+            public int StrDint;
+            public uint StrDword;
+            public ushort StrWord;
+        }
    
         
         public MainPage()
@@ -295,6 +306,11 @@ namespace S7Profinet
 
         }
 
+        private void btnStruct_Click(object sender, EventArgs e)
+        {
+            S7Struct s7Struct = (S7Struct)plc.ReadStruct(typeof(S7Struct), 1);
 
+            S7Struct test = s7Struct;
+        }
     }
 }
