@@ -1,0 +1,13 @@
+c:\users\admin\source\repos\S7Profinet\S7Profinet\bin\Debug\S7Profinet.exe.config
+c:\users\admin\source\repos\S7Profinet\S7Profinet\bin\Debug\S7Profinet.exe
+c:\users\admin\source\repos\S7Profinet\S7Profinet\bin\Debug\S7Profinet.pdb
+c:\users\admin\source\repos\S7Profinet\S7Profinet\obj\Debug\S7Profinet.csprojAssemblyReference.cache
+c:\users\admin\source\repos\S7Profinet\S7Profinet\obj\Debug\S7Profinet.MainPage.resources
+c:\users\admin\source\repos\S7Profinet\S7Profinet\obj\Debug\S7Profinet.Properties.Resources.resources
+c:\users\admin\source\repos\S7Profinet\S7Profinet\obj\Debug\S7Profinet.csproj.GenerateResource.cache
+c:\users\admin\source\repos\S7Profinet\S7Profinet\obj\Debug\S7Profinet.csproj.CoreCompileInputs.cache
+c:\users\admin\source\repos\S7Profinet\S7Profinet\obj\Debug\S7Profinet.exe
+c:\users\admin\source\repos\S7Profinet\S7Profinet\obj\Debug\S7Profinet.pdb
+C:\Users\Admin\source\repos\S7Profinet\S7Profinet\bin\Debug\S7.Net.dll
+C:\Users\Admin\source\repos\S7Profinet\S7Profinet\bin\Debug\S7.Net.pdb
+C:\Users\Admin\source\repos\S7Profinet\S7Profinet\obj\Debug\S7Profinet.csproj.CopyComplete
