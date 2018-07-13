@@ -18,7 +18,7 @@ namespace S7Profinet
 
         public Plc plc = null;
 
-        public struct S7Struct
+        public struct DB1
         {
             public bool StrInput;
             public bool StrOutput;
@@ -82,6 +82,7 @@ namespace S7Profinet
             {
                 if (plc != null)
                 {
+                    timer1.Enabled = false;
                     plc.Close();
                     lblVerbindung.BackColor = Color.Red;
                 }
@@ -117,6 +118,7 @@ namespace S7Profinet
 
             try
             {
+                // Read Bytes und Parse Variable**************************************************
                 var DB1bytes = plc.ReadBytes(DataType.DataBlock, 2, 0, 18);
                 bool db1Bool1 = DB1bytes[0].SelectBit(0);
                 bool db1Bool2 = DB1bytes[0].SelectBit(1);
@@ -132,6 +134,17 @@ namespace S7Profinet
                 txtDintRead.Text = db1DintVariable.ToString();
                 txtDwordRead.Text = db1DwordVariable.ToString();
                 txtWordRead.Text = db1WordVariable.ToString();
+                // Read Struct und Parse Variable***************************************************
+
+                DB1 s7Struct = (DB1)plc.ReadStruct(typeof(DB1), 1);
+                txtInputStruct.Text = s7Struct.StrInput.ToString();
+                txtOutputStruct.Text = s7Struct.StrOutput.ToString();
+                txtIntStruct.Text = s7Struct.StrInt.ToString();
+                txtRealStruct.Text = s7Struct.StrReal.ToString();
+                txtDintStruct.Text = s7Struct.StrDint.ToString();
+                txtDwordStruct.Text =s7Struct.StrDword.ToString();
+                txtWordStruct.Text = s7Struct.StrWord.ToString();
+
             }
             catch (PlcException ex)
             {
@@ -308,9 +321,8 @@ namespace S7Profinet
 
         private void btnStruct_Click(object sender, EventArgs e)
         {
-            S7Struct s7Struct = (S7Struct)plc.ReadStruct(typeof(S7Struct), 1);
 
-            S7Struct test = s7Struct;
+           
         }
     }
 }
