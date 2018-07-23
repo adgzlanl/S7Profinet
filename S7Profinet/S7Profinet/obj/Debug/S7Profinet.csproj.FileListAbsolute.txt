@@ -11,3 +11,14 @@ c:\users\admin\source\repos\S7Profinet\S7Profinet\obj\Debug\S7Profinet.pdb
 C:\Users\Admin\source\repos\S7Profinet\S7Profinet\bin\Debug\S7.Net.dll
 C:\Users\Admin\source\repos\S7Profinet\S7Profinet\bin\Debug\S7.Net.pdb
 C:\Users\Admin\source\repos\S7Profinet\S7Profinet\obj\Debug\S7Profinet.csproj.CopyComplete
+C:\Users\Dell\Source\Repos\S7Profinet\S7Profinet\S7Profinet\bin\Debug\S7Profinet.exe.config
+C:\Users\Dell\Source\Repos\S7Profinet\S7Profinet\S7Profinet\obj\Debug\S7Profinet.exe
+C:\Users\Dell\Source\Repos\S7Profinet\S7Profinet\S7Profinet\obj\Debug\S7Profinet.pdb
+C:\Users\Dell\Source\Repos\S7Profinet\S7Profinet\S7Profinet\bin\Debug\S7Profinet.exe
+C:\Users\Dell\Source\Repos\S7Profinet\S7Profinet\S7Profinet\bin\Debug\S7Profinet.pdb
+C:\Users\Dell\Source\Repos\S7Profinet\S7Profinet\S7Profinet\bin\Debug\S7.Net.dll
+C:\Users\Dell\Source\Repos\S7Profinet\S7Profinet\S7Profinet\bin\Debug\S7.Net.pdb
+C:\Users\Dell\Source\Repos\S7Profinet\S7Profinet\S7Profinet\obj\Debug\S7Profinet.csprojResolveAssemblyReference.cache
+C:\Users\Dell\Source\Repos\S7Profinet\S7Profinet\S7Profinet\obj\Debug\S7Profinet.MainPage.resources
+C:\Users\Dell\Source\Repos\S7Profinet\S7Profinet\S7Profinet\obj\Debug\S7Profinet.Properties.Resources.resources
+C:\Users\Dell\Source\Repos\S7Profinet\S7Profinet\S7Profinet\obj\Debug\S7Profinet.csproj.GenerateResource.Cache
